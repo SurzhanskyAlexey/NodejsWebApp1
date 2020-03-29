@@ -1,0 +1,20 @@
+{
+  "name": "tech_main",
+  "version": "0.0.1",
+  "description": "NodejsWebApp1",
+  "main": "app.js",
+  "author": "surzhansky alex",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql": "^2.18.1",
+    "node-sql-2": "^0.79.0",
+    "nodemon": "^2.0.2",
+    "pug": "^2.0.4",
+    "sql": "^0.78.0"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "devDependencies": {},
+  "license": "ISC"
+}

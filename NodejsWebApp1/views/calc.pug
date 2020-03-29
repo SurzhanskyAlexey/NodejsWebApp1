@@ -1,0 +1,27 @@
+include header
+
+    div(class='main')
+      p Серверная часть приложения Тех обслуживания модемов
+        form(action="/calculate" method="GET")
+         input(type='submit' value="Посчитать")
+
+      div(class="container")
+        div(class="row")
+         div(class="column")
+            table
+             thead
+              tr
+               th idrequest
+               th modem_list_metering_station_id
+               th request_date
+             tbody
+                 each val, index in result
+                  tr 
+                   td #{val['idrequest']}
+                   td #{val['modem_list_metering_station_id']}
+                   td #{val['request_date']}
+         
+
+include footer
+
+
